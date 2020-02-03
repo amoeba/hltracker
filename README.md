@@ -9,8 +9,9 @@ Connects to and retrieves the server list from a Hotline tracker:
 Dependencies:
 
 - Ruby (1.x, 2.x)
-- `iconv` (Run `gem install iconv`)
+- `iconv`
 
 ```sh
-ruby hltracker.rb hltracker.com
+bundle
+bundle exec ruby hltracker.rb hltracker.com
 ```
